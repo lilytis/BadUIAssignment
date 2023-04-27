@@ -1,0 +1,33 @@
+.container {
+
+    text-align: center;
+    color: white;
+  }
+  /* Create two columns/boxes that floats next to each other */
+nav {
+    float: left;
+    width: 30%;
+    background: #000000;
+    padding: 20px;
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+.centered {
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    float: left;
+    padding: 20px;
+    width: 70%;
+}
+
+img:hover {
+    transform: scaleX(-1);
+  }
